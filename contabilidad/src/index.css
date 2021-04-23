@@ -1,0 +1,271 @@
+
+input[type=number] { -moz-appearance:textfield; }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: none;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-weight: none;
+}
+::-webkit-input-placeholder { color: gray; font-size: 16px }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 0rem;
+    padding: 0rem;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+  
+a{
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background-color: turquoise;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: turquoise;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: turquoise;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Div1{
+    width: 75rem;
+    background-color: turquoise;
+    margin: auto;
+    display:flex; 
+    flex-direction:row;  
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+span{
+    padding-top: 2rem;
+    display: inline-block;
+}
+p{
+    text-align: center;
+}
+
+input{
+    margin-right: 1.7rem;
+    margin-left: 2.3rem;
+    margin-top: -5rem;
+    margin-bottom: 2.2rem;
+    border-width: 2px;
+    border-radius: 5px; 
+    border: 1px solid rgb(36, 47, 204);
+    border-style: solid;
+    padding: 7px;
+    width: 9.7rem;
+}
+.inputt{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 2px;
+    border-radius: 5px; 
+    border: 1px solid rgb(36, 47, 204);
+    border-style: solid;
+
+    padding: 0px;
+    width: 7rem;
+}
+.pading{
+
+    padding: 0px;
+
+
+}
+
+
+input:focus{
+    outline: 0 none;
+}
+
+textarea{
+    margin-right: 1.7rem;
+    margin-left: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    border-width: 2px;
+    border-radius: 5px; 
+    border: 1px solid rgb(34, 68, 221);
+    border-style: solid;
+    padding: 7px;
+    width: 9.7rem;
+    resize: none;
+}
+
+textarea:focus{
+    outline: 0 none;
+}
+
+.Fecha{
+    margin-right: 0rem;
+    margin-left: 6.5rem;
+}
+
+.Cuenta{
+    margin-right: 0rem;
+    margin-left: 21.5rem;
+}
+
+.Descripción{
+    margin-right: 0rem;
+    margin-left: 10.5rem;
+}
+
+.Debe{
+    margin-right: 0rem;
+    margin-left: 11.4rem;
+}
+
+.Haber{
+    margin-right: 0rem;
+    margin-left: 12.3rem;
+}
+
+.submit{
+    background-color: rgb(43, 199, 43);
+    color: white;
+}
+
+.reset{
+    background-color: rgb(204, 35, 35);
+    color: white;
+}
+
+.Div2{
+    width: 30rem;
+    background-color: turquoise;
+    margin: auto;
+}
+
+.Código{
+    margin-left: 13.2rem;
+    font-size: 1.1rem;
+}
+
+.Nombre{
+    margin-left: 13.1rem;
+    font-size: 1.1rem;
+}
+
+.h2{
+    text-align: center;
+}
+.input1{
+    margin-left: 17.3rem;
+}
+.Div3{
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 2rem;
+}
+.input2{
+    margin-left: 17.3rem;
+}
+.Div4{
+    padding: 2rem;
+    margin: auto;
+}
+.table{
+    margin-left: 20rem;
+}
+.table2{
+    margin-left:20rem;
+}
+.table3{
+    margin-left: 20rem;
+}
+.h2C{
+    text-align: center;
+}
+.input4{
+    margin-left: 9.5rem;
+}
+.float{
+    float:right;
+}
+.hidden{
+    display: none;
+}
+.center{
+    text-align: center;
+}
+.CC{
+    margin-left: 12.7rem;
+}
+.CP{
+    margin-left: 8.5rem;
+    font-size: 1.1rem;
+}
+.CP2{
+    margin-left: 9.2rem;
+    font-size: 1.1rem;
+}
+
+.spamCuenta{
+    margin-left: 10rem;
+    color:black;
+}
+.textArea{
+    margin-left:2.5rem;
+}
+.codigo{
+    margin-left: 9rem;
+}
+
